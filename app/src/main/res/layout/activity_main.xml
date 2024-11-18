@@ -1,0 +1,58 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Pantalla actual -->
+    <TextView
+        android:id="@+id/tv_current_screen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pantalla actual: #"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Pantalla anterior -->
+    <TextView
+        android:id="@+id/tv_previous_screen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pantalla anterior: #"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Contador de cambios -->
+    <TextView
+        android:id="@+id/tv_total_changes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Número de cambios: 0"
+        android:textSize="24sp"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Botones para navegación -->
+    <Button
+        android:id="@+id/btn_to_screen_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ir a Pantalla 1"
+        android:layout_margin="8dp" />
+
+    <Button
+        android:id="@+id/btn_to_screen_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ir a Pantalla 2"
+        android:layout_margin="8dp" />
+
+    <Button
+        android:id="@+id/btn_to_screen_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ir a Pantalla 3"
+        android:layout_margin="8dp" />
+
+</LinearLayout>
